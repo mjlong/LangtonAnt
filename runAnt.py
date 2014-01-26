@@ -469,7 +469,7 @@ class Ant(pygame.sprite.Sprite):
         If you want to use a new picture, you'll need to change
         this method.
         """
-        self.image = pygame.image.load("ant.png").convert_alpha()
+        self.image = pygame.image.load("ant.jpg").convert_alpha()
 
 if __name__ == "__main__":
     # Uncomment this line to test your warmup answers:
